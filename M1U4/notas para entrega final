@@ -1,0 +1,16 @@
+me parece que en la entrega anterior estaba utilizando css en casi todas las etiquetas en la que utilize style
+<body style="background-color:#B2BABB;"> </body>
+ya entendí me decía que la tarea esta sin css estaba bien igual.
+
+---------------------------------------------------------------------------
+Espero no haber abusado de css en archivo aparte me gusta mucho el hecho de trabajar todo por separado creo que es mejor para la esca-labilidad.
+
+No llego a entender cuando utilizar class o id, en el form utilizo class como asociando que desarrollo el estilo formulario.
+
+En principio utilice una clase para cada input pero como todos llevan los mismos parámetros termine dejando una sola clase para los 4 input.
+
+En el caso de los botones enviar realize dos clases separada para poder posicionar y separar los botones.
+
+EL diseño y mezcla de colores no es lo mio, acepto sugerencias en cuanto al diseño.
+
+URL:  https://github.com/MAJ2021/Diplo_prog_web_marcojakuto carpeta M1U4
