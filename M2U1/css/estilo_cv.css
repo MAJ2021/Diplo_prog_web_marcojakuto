@@ -69,6 +69,47 @@ h2 {
     color: #0504F8;
 }
 
+/* desarrollo div del resumen profesional */
+.resumen_profesional {
+
+    padding: 0px;
+    box-sizing: border-box;
+    margin: 25px;
+}
+
+/* desarrollo div del formacion*/
+.formacion {
+
+    padding: 0px;
+    box-sizing: border-box;
+    margin: 2px;
+}
+.historial_laboral{
+
+    column-count: 2;
+    column-gap: 30px;
+    column-rule: 2px solid blue;
+    
+}
+.historial_laboral p{
+    margin: 20px;
+}
+.historial_laboral h3{
+    margin: 0px;
+}
+
+/* desarrollo aptitudes*/
+.aptitudes{
+column-count:3;
+column-gap: 30px;
+column-rule: 2px solid blue;
+margin: 20px;
+}
+.aptitudes p{
+    margin: 0px;
+}
+
+/* desarrollo  contacto */
 .subtitulo_contacto {
 
     text-align: left;
@@ -78,23 +119,23 @@ h2 {
 }
 
 /* aca desarrolo el style del formulario */
-
 form {
 
+    /* general */
     /*background-color: #E6E6E6;*/
-
-    background: #f6a658;
-    background: linear-gradient(50deg, #f6a658 0%, #ed8926 80%);
-    background: -webkit-linear-gradient(50deg, #f6a658 0%, #ed8926 80%);
-    background: -moz-linear-gradient(50deg, #f6a658 0%, #ed8926 80%);
     padding: 10px;
     border-radius: 5px;
     margin: 20px;
     width: 640px;
-
-    box-shadow: 10px -9px 5px 8px rgba(229, 112, 9, 0.39);
-    -webkit-box-shadow: 10px -9px 5px 8px rgba(229, 112, 9, 0.39);
-    -moz-box-shadow: 10px -9px 5px 8px rgba(229, 112, 9, 0.39);
+    /* aplico gradiente*/
+    background: #f6a658;
+    background: linear-gradient(50deg, #f6a658 0%, #ed8926 80%);
+    background: -webkit-linear-gradient(50deg, #f6a658 0%, #ed8926 80%);
+    background: -moz-linear-gradient(50deg, #f6a658 0%, #ed8926 80%);
+    /* aplico sombra */
+    box-shadow: 8px -7px 3px -1px rgba(234, 89, 10, 0.75);
+    -webkit-box-shadow: 8px -7px 3px -1px rgba(234, 89, 10, 0.75);
+    -moz-box-shadow: 8px -7px 3px -1px rgba(234, 89, 10, 0.75);
 }
 
 .input_gral {
@@ -123,7 +164,7 @@ form {
     padding: 2px;
     border-radius: 5px;
     background-color: #2E64FE;
-
+    color: #e9ecf7;
 
 
 }
@@ -133,5 +174,9 @@ form {
     padding: 2px;
     border-radius: 5px;
     background-color: #93fe2e;
-
+    color: black;
+    /* sombra */
+    box-shadow: 8px -7px 3px -1px rgba(12, 131, 237, 0.75);
+    -webkit-box-shadow: 8px -7px 3px -1px rgba(12, 131, 237, 0.75);
+    -moz-box-shadow: 8px -7px 3px -1px rgba(12, 131, 237, 0.75);
 }
