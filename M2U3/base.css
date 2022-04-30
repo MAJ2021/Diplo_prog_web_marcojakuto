@@ -1,0 +1,167 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	color: #000;
+	background: #332F29;
+	font-size: 100%;
+}
+
+#contenedor {
+	width: 800px;
+	background: #8FA68E;
+	margin-right: auto;
+	margin-left: auto;
+	overflow: hidden;
+}
+
+nav {
+	background: #CC3910;
+	float: left;
+	width: 160px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+a {
+	color: #F1F2C0;
+	text-decoration: none;
+}
+
+section {
+	background: #F1F2C0;
+	float: left;
+	margin: 0 0 0 25px;
+	width: 400px;
+}
+
+aside {
+	background: #CCC59E;
+	float: right;
+	width: 190px;
+}
+
+@media screen and (min-width: 230px) and (max-width: 800px) {
+
+	body {
+		padding: 1px;
+		margin-left: 0px;
+
+		background: #e40434;
+		font-size: 100%;
+
+	}
+
+	#contenedor {
+		width: 95%;
+		background: #dcf30c;
+		border-radius: 3px;
+		padding: 1px;
+
+	}
+
+	#titulo_1 {
+		width: 98%;
+		background: #900afd;
+		color: rgb(252, 246, 246);
+		border: 2px solid rgb(3, 0, 19);
+		padding: 1px;
+		margin: 4px;
+		border-radius: 3px;
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+	}
+
+	#enlaces {
+		width: 98%;
+		background: #f3aa3e;
+		border: 2px solid rgb(3, 0, 19);
+		padding: 1px;
+		margin: 4px;
+		border-radius: 3px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		cursor: pointer;
+	}
+
+	nav {
+		width: 70%;
+		background: #f3aa3e;
+
+		padding: 1px;
+		margin: 4px;
+		border-radius: 3px;
+		display: inline-flex;
+		flex: content;
+
+
+	}
+
+	ul {
+
+		background: #f3aa3e;
+
+		padding: 1px;
+		margin: 4px;
+		border-radius: 3px;
+		display: inline-flex;
+		flex: content;
+		justify-content: space-evenly;
+
+	}
+
+	li {
+		background: #f3aa3e;
+
+		padding: 1px;
+		margin: 4px;
+		border-radius: 3px;
+		display: inline-flex;
+
+	}
+
+	a {
+		background: #fd4f0a;
+		color: #010005;
+		border: 2px solid rgb(3, 0, 19);
+		padding: 1px;
+		margin: 4px;
+		border-radius: 3px;
+		display: inline-flex;
+
+
+
+	}
+
+	section {
+		background: #f8b21b;
+		color: #010a01;
+		display: block;
+		border: 2px solid rgb(3, 0, 19);
+		padding: 1px;
+		margin: 4px;
+		border-radius: 3px;
+		width: 98%;
+	}
+
+	aside {
+
+		background: #f89808;
+		color: #010a01;
+		display: block;
+		border: 2px solid rgb(3, 0, 19);
+		padding: 1px;
+		margin: 4px;
+		border-radius: 3px;
+		width: 98%;
+
+
+
+
+	}
+
+}
