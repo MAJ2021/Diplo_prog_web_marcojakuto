@@ -73,6 +73,29 @@ aside {
 		display: flex;
 		justify-content: flex-start;
 		align-items: center;
+		animation-name: animacion_titulo_1;
+		animation-duration: 2s;
+	}
+
+	@keyframes animacion_titulo_1 {
+
+		from {
+			font-size: 0%;
+			margin-left: 100%;
+
+		}
+
+		50% {
+			font-size: 100%;
+		}
+
+		to {
+			font-size: 100%;
+			margin-left: 5%;
+			width: 98%;
+
+		}
+
 	}
 
 	#enlaces {
@@ -86,6 +109,7 @@ aside {
 		justify-content: center;
 		align-items: center;
 		cursor: pointer;
+		
 	}
 
 	nav {
@@ -97,7 +121,7 @@ aside {
 		border-radius: 3px;
 		display: inline-flex;
 		flex: content;
-
+		
 
 	}
 
@@ -111,7 +135,7 @@ aside {
 		display: inline-flex;
 		flex: content;
 		justify-content: space-evenly;
-
+		
 	}
 
 	li {
@@ -121,7 +145,8 @@ aside {
 		margin: 4px;
 		border-radius: 3px;
 		display: inline-flex;
-
+		transition: all 1s ease; 
+ 
 	}
 
 	a {
@@ -132,9 +157,13 @@ aside {
 		margin: 4px;
 		border-radius: 3px;
 		display: inline-flex;
-
-
-
+	}
+    
+	a:hover{
+        
+		border: 2px solid rgb(247, 203, 6);
+		transform: scale(1.5,1.5);
+		
 	}
 
 	section {
