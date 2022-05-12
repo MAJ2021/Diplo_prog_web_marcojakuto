@@ -1,0 +1,43 @@
+/*
+font-family: 'Ubuntu', sans-serif;
+*/
+
+body {
+
+    background: gray;
+    padding: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    
+}
+
+header {
+
+    background-color: rgb(255, 136, 0);
+}
+
+.encabezado_maj{
+  
+    display: inline-flex;
+    align-items: center;
+    padding: 10px;
+    margin-left: 20px;
+    
+ }
+
+header img {
+
+    border-radius: 15px;
+    transform: scale(0.9);
+}
+
+header h1{
+color: rgb(5, 1, 0);
+font-size: 50px;
+font-weight: 100px;
+
+bottom: 35px;
+margin-left: 30px;
+}
+
