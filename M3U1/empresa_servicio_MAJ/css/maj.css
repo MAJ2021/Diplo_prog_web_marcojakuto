@@ -9,9 +9,7 @@ body {
     font-family: 'Ubuntu', sans-serif;
     font-size: 16px;
     line-height: 20px;
-
 }
-
 
 @media screen and (min-width: 230px) and (max-width: 790px) {
 
@@ -195,6 +193,26 @@ body {
 
     }
 
+    .relleno {
+
+        display: inline-flex;
+        align-items: center;
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    main H2 {
+
+        background: rgb(253, 195, 4);
+        display: inline-flex;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        padding: 10px;
+        margin: 0;
+        margin-top: 10px;
+    }
 
     footer {
 
@@ -216,7 +234,6 @@ body {
         align-items: center;
         padding: 10px;
         margin-left: 20px;
-
     }
 
     header img {
@@ -229,7 +246,6 @@ body {
         color: rgb(5, 1, 0);
         font-size: 50px;
         font-weight: 100px;
-
         bottom: 35px;
         margin-left: 30px;
     }
@@ -243,8 +259,6 @@ body {
     nav {
 
         background-color: orange;
-
-
     }
 
     nav ul {
@@ -282,7 +296,6 @@ body {
         margin: 0px;
         margin-top: 0px;
         padding: 10px;
-
     }
 
     .slider {
@@ -292,9 +305,6 @@ body {
         margin-top: 0px;
         overflow: hidden;
         max-height: 500px;
-
-
-
     }
 
     .slider ul {
@@ -310,14 +320,13 @@ body {
 
         list-style: none;
         width: 100%;
-
     }
 
     .slider img {
+
         max-height: 500px;
         width: 100%;
         border-radius: 20px;
-
     }
 
     @keyframes cambio {
@@ -381,6 +390,26 @@ body {
 
     }
 
+    .relleno {
+
+        display: inline-flex;
+        align-items: center;
+        width: 100%;
+        padding: 0px;
+        margin: 0;
+    }
+
+    main H2 {
+
+        background: rgb(253, 195, 4);
+        display: inline-flex;
+        justify-content: center;
+        text-align: center;
+
+        width: 100%;
+        padding: 10px;
+        margin-top: 10px;
+    }
 
     footer {
 
@@ -388,10 +417,6 @@ body {
         text-align: center;
         padding: 20px 0px;
     }
-
-
-
-
 }
 
 @media screen and (min-width: 1301px) and (max-width: 2560px) {
@@ -403,14 +428,11 @@ body {
 
     .encabezado_maj {
 
-
         width: 96%;
         display: inline-flex;
         justify-content: center;
-
         padding: 10px;
         margin-left: 20px;
-
     }
 
     header img {
@@ -433,7 +455,6 @@ body {
         width: 100%;
         display: flex;
         justify-content: space-evenly;
-
     }
 
     nav ul {
@@ -452,7 +473,6 @@ body {
         flex: grow 1;
         display: flex;
         justify-content: space-evenly;
-
     }
 
     nav ul li a {
@@ -507,7 +527,6 @@ body {
         max-height: 700px;
         width: 100%;
         border-radius: 20px;
-
     }
 
     @keyframes cambio {
@@ -567,16 +586,32 @@ body {
         100% {
             margin-left: -600%;
         }
-
-
     }
 
+    .relleno {
+
+        display: inline-flex;
+        align-items: center;
+        width: 100%;
+    }
+
+    main H2 {
+
+        background: rgb(253, 195, 4);
+        display: inline-flex;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        padding: 2px;
+        margin: 0;
+        margin-top: 10px;
+    }
 
     footer {
 
         background-color: rgb(243, 135, 46);
         text-align: center;
-        padding: 20px 0px;
+        padding: 8px 0px;
     }
 
 }
@@ -592,7 +627,6 @@ body {
     padding: 2px;
     margin: 16px 0px;
     align-items: center;
-
 }
 
 .la_empresa img {
@@ -601,19 +635,15 @@ body {
     max-width: 20%;
     display: block;
     border-left: 5px;
-
 }
 
 .la_empresa .desarrollo h3 {
 
     color: blue;
-
     font-weight: 500;
     font-style: italic;
     border-bottom: 1px solid black;
     padding: 10px;
-
-
 }
 
 .la_empresa .desarrollo p {
@@ -622,8 +652,8 @@ body {
 }
 
 .la_empresa:nth-child(even) {
-    flex-direction: row-reverse;
 
+    flex-direction: row-reverse;
 }
 
 .retorno {
@@ -633,12 +663,10 @@ body {
     width: 100%;
     display: flex;
     justify-content: end;
-
 }
 
 .retorno nav a {
     background: rgb(253, 195, 4);
-    
     width: 95%;
     color: rgb(8, 0, 0);
     text-decoration: none;
@@ -651,26 +679,26 @@ body {
 
 .retorno nav a:hover {
 
-    background-color: rgba(250, 234, 8, 0.829);
-
+    background-color: rgb(253, 195, 4);
     color: rgb(46, 2, 243);
 }
+
+
 
 .footer_la_empresa {
 
     background-color: rgb(243, 135, 46);
     text-align: center;
     padding: 10px 0px;
-
 }
 
 @media screen and (min-width: 1301px) and (max-width: 2560px) {
 
     .la_empresa {
-       
+
         margin: 5px 5px;
-        
     }
+
     .la_empresa img {
 
         border-radius: 15px;
@@ -684,18 +712,177 @@ body {
         font-size: 20px;
     }
 
-    
     .retorno nav a {
+
         width: 100%;
-       padding: 5px;
-     
-       
+        padding: 5px;
     }
+
     .retorno nav a:hover {
-       
-       background: rgb(253, 195, 4);
-        
+
+        background: rgb(253, 195, 4);
         color: rgb(46, 2, 243);
     }
 
+}
+
+.servicio_contenedor {
+
+    background-color: rgb(253, 195, 4);
+    max-height: 200px;
+    gap: 20px;
+    display: inline-flex;
+    border-radius: 10px;
+    border: 1px solid blue;
+    padding: 2px;
+    margin: 16px 0px;
+    align-items: center;
+}
+
+.desarrollo_servicio h3 {
+
+    color: blue;
+    font-weight: 500;
+    font-style: italic;
+    border-bottom: 1px solid black;
+    padding: 10px;
+}
+
+.desarrollo_servicio p {
+
+    font-size: 13px;
+}
+
+
+.slider_servicio {
+
+    background: rgb(253, 195, 4);
+    width: 50%;
+    margin: auto;
+    margin-top: 0px;
+    overflow: hidden;
+    max-height: 100%;
+}
+
+.slider_servicio_1 ul {
+
+    display: inline-flex;
+    align-items: center;
+    padding: 0px;
+    margin: 0%;
+    width: 700%;
+    animation: cambio_servicio 20s infinite;
+}
+
+.slider_servicio_1 li {
+
+    list-style: none;
+    width: 100%;
+}
+
+.slider_servicio img {
+
+    max-height: 190px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.servicio_contenedor:nth-child(odd) {
+
+    flex-direction: row-reverse;
+}
+
+@keyframes cambio_servicio {
+
+    0% {
+        margin-left: 0%;
+    }
+
+    10% {
+        margin-left: 0%;
+    }
+
+    15% {
+        margin-left: -100%;
+    }
+
+    25% {
+        margin-left: -100%;
+    }
+
+    30% {
+        margin-left: -200%;
+    }
+
+    40% {
+        margin-left: -200%;
+    }
+
+    45% {
+        margin-left: -300%;
+    }
+
+    55% {
+        margin-left: -300%;
+    }
+
+    60% {
+        margin-left: -400%;
+    }
+
+    70% {
+        margin-left: -400%;
+    }
+
+    75% {
+        margin-left: -500%;
+    }
+
+    85% {
+        margin-left: -500%;
+    }
+
+    90% {
+        margin-left: -600%;
+    }
+
+    100% {
+        margin-left: -600%;
+    }
+}
+
+@media screen and (min-width: 1301px) and (max-width: 2560px) {
+
+    .servicio_contenedor {
+
+        width: 99%;
+        margin: 5px 5px;
+    }
+
+    .desarrollo_servicio p {
+
+        font-size: 20px;
+    }
+
+    .desarrollo_servicio h3 {
+
+        font-size: 30px;
+    }
+
+    .retorno nav a {
+        width: 100%;
+        padding: 5px;
+    }
+
+    .retorno nav a:hover {
+
+        background: rgb(253, 195, 4);
+        color: rgb(46, 2, 243);
+    }
+
+    .slider_servicio {
+
+        width: 20%;
+
+    }
 }
