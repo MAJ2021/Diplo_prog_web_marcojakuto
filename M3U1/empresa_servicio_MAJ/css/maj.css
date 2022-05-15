@@ -581,4 +581,121 @@ body {
 
 }
 
+.la_empresa {
 
+    background-color: rgb(253, 195, 4);
+    max-height: 200px;
+    gap: 20px;
+    display: inline-flex;
+    border-radius: 10px;
+    border: 1px solid blue;
+    padding: 2px;
+    margin: 16px 0px;
+    align-items: center;
+
+}
+
+.la_empresa img {
+
+    border-radius: 15px;
+    max-width: 20%;
+    display: block;
+    border-left: 5px;
+
+}
+
+.la_empresa .desarrollo h3 {
+
+    color: blue;
+
+    font-weight: 500;
+    font-style: italic;
+    border-bottom: 1px solid black;
+    padding: 10px;
+
+
+}
+
+.la_empresa .desarrollo p {
+
+    font-size: 13px;
+}
+
+.la_empresa:nth-child(even) {
+    flex-direction: row-reverse;
+
+}
+
+.retorno {
+
+    background-color: rgb(253, 195, 4);
+    border-radius: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+
+}
+
+.retorno nav a {
+    background: rgb(253, 195, 4);
+    
+    width: 95%;
+    color: rgb(8, 0, 0);
+    text-decoration: none;
+    padding: 3px 6px;
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: end;
+    text-align: center;
+}
+
+.retorno nav a:hover {
+
+    background-color: rgba(250, 234, 8, 0.829);
+
+    color: rgb(46, 2, 243);
+}
+
+.footer_la_empresa {
+
+    background-color: rgb(243, 135, 46);
+    text-align: center;
+    padding: 10px 0px;
+
+}
+
+@media screen and (min-width: 1301px) and (max-width: 2560px) {
+
+    .la_empresa {
+       
+        margin: 5px 5px;
+        
+    }
+    .la_empresa img {
+
+        border-radius: 15px;
+        max-width: 15%;
+        display: block;
+        border-left: 5px;
+    }
+
+    .la_empresa .desarrollo p {
+
+        font-size: 20px;
+    }
+
+    
+    .retorno nav a {
+        width: 100%;
+       padding: 5px;
+     
+       
+    }
+    .retorno nav a:hover {
+       
+       background: rgb(253, 195, 4);
+        
+        color: rgb(46, 2, 243);
+    }
+
+}
