@@ -649,6 +649,21 @@ body {
         font-size: 30px;
     }
 
+    .relleno_inicial_laempresa {
+
+        padding: 10px;
+    }
+
+    .relleno_intermedio_laempresa {
+        
+        padding: 15px;
+    }
+
+    .relleno_final_laempresa {
+
+        padding: 60px;
+    }
+
 }
 
 .retorno {
@@ -682,11 +697,102 @@ body {
     color: rgb(46, 2, 243);
     font-weight: 700;
 }
-/********** la empresa ******************/
+
+.la_empresa {
+
+    background-color: rgb(250, 226, 7);
+    display: inline-flex;
+    border-radius: 20px;
+    gap: 25px;
+}
+
+.desarrollo h3 {
+
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+    width: 100%;
+
+}
+
+.desarrollo p {
+
+    font-size: 20px;
+    justify-content: center;
+
+
+}
+
+.desarrollo_m_v_o {
+
+    background: rgb(250, 226, 7);
+    display: inline-flex;
+    gap: 20px;
+    border-radius: 20px;
+    padding: 2px;
+
+    animation-name: animacion_valores;
+    animation-duration: 3s;
+    transition: 0.1s;
+
+}
+
+.logo_valores {
+
+    background: rgb(250, 226, 7);
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 20px;
+    margin-left: 3px;
+    padding: 2px;
+}
+
+.valores_descripcion {
+
+    background: rgb(250, 226, 7);
+    border-radius: 20px;
+    display: inline-flex;
+    flex-direction: column;
+
+}
+
+.valores_descripcion_a h3 {
+
+    margin-left: 6px;
+    border-bottom: solid 1px grey;
+
+}
+
+.valores_descripcion_a p {
+
+    margin-left: 6px;
+    text-align: left;
+}
+
+.logo_valores img {
+
+    border-radius: 20px;
+}
+
+@keyframes animacion_valores {
+
+    from {
+
+        margin-left: 100%;
+        width: 100%;
+    }
 
 
 
-/************* La empresa *****************/
+    to {
+
+        margin-left: 5%;
+        width: 100%;
+
+    }
+}
+
 .servicio {
 
     background: rgb(253, 195, 4);
@@ -696,7 +802,6 @@ body {
 }
 
 .servicio_contenedor {
-
 
     background: rgb(253, 195, 4);
     max-height: auto;
@@ -713,14 +818,10 @@ body {
 
     padding: 20px;
     border-radius: 20px;
-
-
-
 }
 
 
 .desarrollo_servicio h3 {
-
 
     color: blue;
     font-weight: 500;
@@ -774,8 +875,6 @@ body {
 }
 
 .slider_servicio img {
-
-    background: greenyellow;
 
     max-height: 190px;
     max-width: 190px;
@@ -842,3 +941,7 @@ body {
         margin-left: -600%;
     }
 }
+
+/********************/
+
+/********************/
