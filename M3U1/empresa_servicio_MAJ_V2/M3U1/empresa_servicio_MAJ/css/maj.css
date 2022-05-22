@@ -1,0 +1,367 @@
+/*
+font-family: 'Ubuntu', sans-serif;
+*/
+
+header {
+
+    padding: 5px;
+    display: flex;
+    gap: 20px;
+}
+
+.logo_maj {
+
+    width: 25%;
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo_maj img {
+
+    width: 100%;
+    padding: 2px;
+    border-radius: 20px;
+    transform: scale(0.9);
+}
+
+.titulo_menu {
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.titulo_empresa {
+
+
+    display: block;
+    padding: 0px;
+
+
+
+}
+
+.titulo_empresa h1 {
+
+    color: rgb(0, 89, 255);
+    font-size: 45px;
+    font-weight: 700;
+    font-style: italic;
+    margin-left: 10px;
+}
+
+.menu_empresa {
+
+    margin: 0px;
+    display: flex;
+
+}
+
+.menu_empresa nav {
+
+    width: 100%;
+    padding: 10px;
+    display: inline-flex;
+    justify-content: end;
+
+}
+
+.menu_empresa nav ul {
+
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: inline-flex;
+
+}
+
+.menu_empresa nav ul li {
+
+    flex-grow: 1;
+
+}
+
+.menu_empresa nav ul li a {
+
+    color: rgb(0, 89, 255);
+    text-decoration: none;
+    padding: 4px 20px;
+    margin-right: 10px;
+    display: block;
+    text-align: center;
+    font-weight: 700;
+}
+
+.menu_empresa nav ul li a:hover {
+
+    background-color: rgb(8, 159, 247);
+    border-radius: 10px;
+    transform: scale(1.1);
+    color: rgb(8, 0, 0);
+    font-weight: 600;
+}
+
+
+main {
+
+    padding: 0px;
+    margin: 0px;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.foto_pag_ppal {
+
+    display: flex;
+    width: 100%;
+}
+
+.foto_pag_ppal img {
+
+    display: flex;
+    max-width: 100%;
+    max-height: 400px;
+}
+
+.titulo_empresa h3 {
+
+    color: rgb(0, 89, 255);
+    font-size: 35px;
+    font-weight: 700;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-block-end: 0px;
+}
+
+.empresa {
+
+    background: rgb(214, 214, 214);
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-block-end: 90px;
+
+}
+
+.empresa p {
+
+    display: block;
+    width: 80%;
+    margin: 10px;
+    color: rgb(0, 89, 255);
+    font-size: 20px;
+    font-weight: 700;
+    font-style: italic;
+    text-align: justify;
+    justify-content: center;
+}
+
+.m_v_o {
+
+
+    display: inline-flex;
+    width: 80%;
+    justify-content: space-between;
+
+}
+
+
+.mision {
+
+
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.vision {
+
+
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.objetivo {
+
+
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+figure {
+
+
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+figure h4 {
+
+    color: rgb(0, 89, 255);
+    font-size: 20px;
+    font-weight: 700;
+    font-style: italic;
+    display: flex;
+    justify-content: start;
+    padding: 0px;
+    margin: 0%;
+
+}
+
+/* Invisible texto */
+figcaption {
+    display: none;
+    transition: all .5s;
+}
+
+/* Visible texto */
+figure:hover>figcaption {
+    display: block;
+    transition: all .5s;
+}
+
+figure:hover h4 {
+
+    color: rgb(0, 89, 255);
+    font-size: 30px;
+    font-weight: 900;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    margin: 0%;
+}
+
+figure:hover p {
+
+    display: block;
+    width: 98%;
+    margin: 10px;
+    color: rgb(0, 89, 255);
+    font-size: 20px;
+    font-weight: 900;
+    font-style: italic;
+    text-align: justify;
+    justify-content: center;
+}
+
+/************************/
+
+.servicio {
+
+    background: rgb(224, 223, 223);
+    margin: 0%;
+    padding: 0%;
+    display: inline-flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.servicio_titulo {
+    
+    background: rgb(240, 240, 234);
+    width: 100%;
+    color: rgb(0, 89, 255);
+    font-size: 25px;
+    font-weight: 700;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.foto_ins_ele {
+
+    width: 100%;
+    padding: 5px;
+}
+
+.contenedor_foto img {
+
+    max-height: 190px;
+    max-width: 190px;
+    border-radius: 20px;
+    margin-top: 3px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.servicio_contenedor {
+
+    max-height: auto;
+    width: 95%;
+    display: flex;
+    border-radius: 10px;
+    border: 2px solid blue;
+    gap: 20px;
+    margin: 16px 0px;
+}
+
+.contenedor_txt{
+
+    padding: 0px;
+    margin-top: 0px;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+.contenedor_txt h3 {
+   
+    color: rgb(0, 89, 255);
+    font-size: 25px;
+    font-weight: 600;
+    font-style: italic;
+    border-bottom: 1px solid blue;
+    padding: 5px;
+    border-top: 0px;
+    margin-right: 10px;
+    
+}
+
+.contenedor_txt p {
+
+    color: rgb(0, 89, 255);
+    padding: 0px;
+    margin: 0%;
+    font-size: 20px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.servicio_contenedor:nth-child(odd) {
+
+    flex-direction: row-reverse;
+}
+
+/************************/
+
+
+
+
+
+
+
+
+footer {
+
+
+    background: gray;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+
+}
