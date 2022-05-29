@@ -1,0 +1,35 @@
+
+ejercicio_1a 
+ 
+utilizo etiqueta select para representar un control que muestra un menú de opciones. Le asigno un valor a cada etiqueta relacionada con los metros a recorrer.
+
+let me permite declarar variables limitando su alcance (scope) al bloque, declaración, o expresión donde se está usando.a diferencia de la palabra clave var la cual define una variable global o local en una función sin importar el ámbito del bloque. 
+
+con  document.querySelector Devuelvo el primer elemento del documento (utilizando un recorrido primero en profundidad pre ordenado de los nodos del documento) que coincida con el grupo especificado de selectores.
+
+El método addEventlistener, es un escuchador que indica al navegador que este atento a la interacción del usuario. La ventaja es que se escribe totalmente en el JS, sin necesidad de tocar el HTML. 
+
+luego realizo la función recorrido que es la que evaluá y realiza la devolución correspondiente.
+
+con === establezco una igualdad estricta
+
+al realizarlo de esta manera estaría acotando la elección del usuario y estaría evitando que ingrese cualquier carácter o valores negativos.
+
+ejercicio_1b
+
+utilizo la sentencia  if sin aplicar función y/o poo, no utilizo expresiones regulares para la comprobación de las entrada, solo algunas comprobaciones como que el valor ingresado es un numero positivo y que no se allá ingresado una letra.
+
+ejercicio_2a
+
+declaro una variable arreglo con 5 elementos.
+declaro una variable máximo inicializada en 0.
+con el ciclo for recorro todos los elementos del array.
+en el if evaluó los elementos recorridos.
+
+ejercicio_2b
+
+declaro una variable que es un array vació, luego con el un ciclo for le completo 5 elementos que podrían ser mas o menos.
+El método push() añade uno o más elementos al final de un array. 
+creo una variable evaluación y le aplico la función math.max al array.
+
+

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ejercicio Nº 1</title>
+    </head>
+    <body>
+
+        <label for="distancia">Que Distacia Deseas Recorer: </label>
+        <select id="distancia">
+            <option value="">--Haga una elección--</option>
+            <option value="pie">0 a 1000 mts</option>
+            <option value="bicicleta">1000 a 10000 mts</option>
+            <option value="colectivo">10000 a 30000 mts</option>
+            <option value="auto">30000 a 100000 mts</option>
+            <option value="avion">mas de 100000 mts</option>
+        </select>
+
+        <p></p>
+
+        <script>
+            
+            let seleccionar = document.querySelector('select');
+            let parrafo = document.querySelector('p');
+        
+            seleccionar.addEventListener('change', recorrido);
+
+            function recorrido() {
+        
+                let eleccion = seleccionar.value;
+
+                if (eleccion === 'pie') 
+                    {
+                        parrafo.textContent = 'Le sugerimos realizar el recorrido a pie. ';
+                    }
+                else if (eleccion === 'bicicleta') 
+                    {
+                        parrafo.textContent = 'Le sugerimos realizar el recorrido en bicicleta. ';
+                    } 
+                else if (eleccion === 'colectivo')
+                    {
+                        parrafo.textContent = 'Le sugerimos realizar el recorrido en colectivo. ';
+                    }
+                else if (eleccion === 'auto') 
+                    {
+                        parrafo.textContent = 'Le sugerimos realizar el recorrido en auto. ';
+                    }
+                else if (eleccion === 'avion') 
+                    {
+                        parrafo.textContent = 'Le sugerimos realizar el recorrido en avion. ';
+                    }
+                else 
+                {
+                    parrafo.textContent = '';
+                }
+        
+                } 
+    
+        </script>
+    </body>
+</html>
