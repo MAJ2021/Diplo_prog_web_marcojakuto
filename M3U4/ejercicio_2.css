@@ -1,0 +1,75 @@
+.titulo {
+
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+
+    font-weight: 600;
+    font-style: italic;
+    color: blue;
+}
+
+.area_texto {
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
+    gap: 10px;
+}
+
+.borrar {
+
+    background: tomato;
+    width: 50%;
+    padding: 5px;
+    font-weight: 800;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.borrar:hover {
+
+    background: yellow;
+}
+
+#texto {
+    
+    background: greenyellow;
+    width: 70%;
+    border-radius: 5px;
+    color: blue;
+    font-weight: 700;
+    border: px solid black;
+}
+
+.cantidad_caracteres {
+
+    display: flex;
+    justify-content: flex-start;
+    gap: 50px;
+    margin-top: 10px;
+
+}
+
+h2 {
+
+    display: inline-flex;
+    font-weight: 600;
+    font-style: italic;
+    color: blue;
+}
+
+#resultado {
+
+    display: flex;
+    margin: 8px;
+    align-items: center;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 25px;
+    color: blue;
+    padding: 5px;
+}

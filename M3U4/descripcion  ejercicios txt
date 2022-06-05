@@ -1,0 +1,33 @@
+Intento realizar las 3 carpeta (.html .css .js) por separado para ir adquiriendo el abito.
+-----------------------------------------------------------------------------------------------
+ejercicio nº1
+
+Creo documento html con los elementos a contener.
+Agrego un botón de defaul para dejar el fondo en el color original.
+En la hoja css creo los estilos para la presentación original.
+En el js realizo una función que recibe una variable, con diferente valor, cuando se presiona sobre el recuadro(div). Luego con una serie de if voy resolviendo el color de fondo.
+Por último agrego un botón de reset.
+-----------------------------------------------------------------------------------------------
+ejercicio nº2
+
+En este caso no utilizo el text área dentro de form porque el objetivo principar es realizar un contador de caracteres.
+Agrego un botón de borrar para seguir con la practica de DOM, en este caso reemplazo con carácter vació en la función borrar texto.
+Luego genero una función getID que me retorna el id capturado para reutilizarlo nuevamente llamando solo a la función.
+Siguiendo el concepto anterior genero función innerHTML.
+En la función contar caracteres resuelvo el numero de caracteres.
+Dentro de esta función, con setInterval ejecuto la función interna por un determinado intervalo al colocar 0000 lo hace de forma cte
+por ultimo llamo a la función que se ejecute.
+
+Nota: en la función contar caracteres se podría colocar mas funcionalidades como avisos de que se esta por llegar al limite, que se llego al limite, todo se resolvería dentro de dicha función, comparando la variable c.
+--------------------------------------------------------------------------------------------------
+ejercicio nº3
+
+Creo una función alumnos aprobados.
+Realizo un console log para ver alumnos.
+Creo una constante aprobados para guardar los resultados de aplicar filter a alumnos, con esto filtro los alumnos cuya nota es igual o mayor a 7.
+Imprimo por consola el resultado.  
+Al se pocos le agrego un poco de css para que su visualización.
+
+Nota: en este tema me hubiera gustado que aparecieran por orden alfabético o por orden de merito y que se completara dinamicamente según el array, pero no tuve mucho tiempo para desarrollar por cuestiones personales.
+
+

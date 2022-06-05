@@ -1,0 +1,47 @@
+
+
+h1{
+    font-size: 45px;
+    font-style: italic;
+    text-align: center;
+    color: blue;
+
+
+}
+.info {
+
+    
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+}
+
+.info1 {
+    background: rgb(5, 199, 248);
+    display: inline-flex;
+    padding: 0px;
+    margin: 0px;
+    gap: 50px;
+    border-radius: 20px;
+}
+
+.info1:nth-child(odd) {
+
+    background: rgb(5, 139, 248);
+}
+
+.info1a {
+    
+    display: flex;
+    justify-content: center;
+    width: 50%;
+
+}
+
+.info1b {
+    
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
