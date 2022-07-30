@@ -1,0 +1,23 @@
+.contenedor_novedades {
+
+    background: rgb(197, 198, 196);
+    margin: 0px;
+    display: block;
+}
+
+.contenedor_salir {
+
+    
+    display: block;
+
+}
+
+.saludo_novedades {
+
+    display: flex;
+    justify-content: flex-end;
+    font-size: 25px;
+    font-weight: 500;
+    font-style: italic;
+    gap: 10px;
+}
