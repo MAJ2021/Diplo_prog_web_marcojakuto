@@ -1,0 +1,56 @@
+.contenedor_novedades {
+
+    background: rgb(197, 198, 196);
+    margin: 0px;
+    display: block;
+    
+
+}
+
+.contenedor_salir {
+
+    background: rgb(225, 225, 225);
+    display: block;
+}
+
+.contenedor_salir i {
+    
+    margin-right: 15px;
+}
+
+
+.saludo_novedades {
+
+    display: flex;
+    justify-content: flex-end;
+    font-size: 25px;
+    font-weight: 500;
+    font-style: italic;
+    gap: 15px;
+}
+
+.titulo_novedades {
+
+    background: rgb(225, 225, 225);
+}
+
+.col-6 h3 {
+
+    color: blue;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 500;
+    font-style: italic;
+    justify-items: center;
+}
+
+#boton_nuevo{
+
+   
+    margin-top: 3px;
+}
+
+.tabla_resultados{
+
+    background: rgb(225, 225, 225);
+}
