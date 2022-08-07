@@ -8,10 +8,10 @@
 #agregar {
 
     background: gainsboro;
-   
+
 }
 
-.titulo_agregar{
+.titulo_agregar {
 
     background: gainsboro;
     color: blue;
@@ -21,22 +21,20 @@
     text-align: center;
 }
 
-.boton_guardar{
+.boton_guardar {
 
     background: gainsboro;
-    display:flex;
+    display: flex;
     padding: 3px;
     justify-content: center;
 }
 
-.mensaje_error{
+.mensaje_error {
 
-    
     margin-top: 10px;
-
 }
 
-.mensaje_error_p{
+.mensaje_error_p {
 
     color: rgb(255, 166, 0);
     font-style: italic;

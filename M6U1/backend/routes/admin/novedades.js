@@ -14,6 +14,7 @@ router.get('/', async function (req, res, next) {
   });
 });
 
+
 // boton agregar
 router.get('/agregar', (req, res, next) => {
   res.render('admin/agregar', {
@@ -42,5 +43,4 @@ router.post('/agregar', async (req, res, next) => {
     })
   }
 })
-
 module.exports = router;

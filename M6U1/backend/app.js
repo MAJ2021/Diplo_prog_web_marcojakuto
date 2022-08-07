@@ -13,8 +13,12 @@ var indexRouter = require('./routes/index');
 var loginRouter = require('./routes/admin/login');
 var adminRouter = require('./routes/admin/novedades');
 
-var adminRouter = require('./routes/admin/novedades');
+var menu_ppalRouter = require('./routes/admin/menu_ppal');
+
+var trabajos_realizadosRouter = require('./routes/admin/trabajos_realizados');
+
 var app = express();
+
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -53,6 +57,9 @@ secured = async (req, res, next) => {
 app.use('/', indexRouter);
 app.use('/admin/login', loginRouter);
 app.use('/admin/novedades', secured, adminRouter);
+app.use('/admin/menu_ppal', secured, menu_ppalRouter);
+
+app.use('/admin/trabajos_realizados', secured, trabajos_realizadosRouter);
 
 // error handler
 app.use(function (err, req, res, next) {
