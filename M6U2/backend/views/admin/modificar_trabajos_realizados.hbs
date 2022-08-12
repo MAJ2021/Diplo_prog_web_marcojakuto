@@ -1,0 +1,63 @@
+<div class="contenedor_agregar">
+    <div class="contenedor_salir">
+        <p class="saludo_novedades"><a class="salir"
+                href="/admin/menu_ppal"> Salir <i class="fas
+                    fa-sign-out-alt"></i></a></p>
+    </div>
+    <div> &nbsp; </div>
+    <div class="container" id="agregar">
+        <div class="row">
+            <div class="col-7">
+                <h3 class="titulo_agregar">Modificar Trabajos Realizados / Datos</h3>
+                <form
+                    action="/admin/trabajos_realizados/modificar_trabajos_realizados"
+                    method="post">
+                    <div class="mb-3 row">
+                        <textarea type="text" class="form-control"
+                            placeholder="Instrumentacion & Electricidad"
+                            name="instrumentacion_electricidad">{{novedad.instrumentacion_electricidad}}</textarea>
+                    </div>
+                    <div class="mb-3 row">
+                        <textarea type="text" class="form-control"
+                            placeholder="Automatizacion & Control"
+                            name="automatizacion_control">{{novedad.automatizacion_control}}</textarea>
+                    </div>
+                    <div class="mb-3 row">
+                        <textarea type="text" class="form-control"
+                            placeholder="Prototipos & Sistemas Enbebidos"
+                            name="prototipos_sistemas_enbebidos">{{novedad.prototipos_sistemas_enbebidos}}</textarea>
+                    </div>
+                    <div class="mb-3 row">
+                        <textarea type="text" class="form-control"
+                            placeholder="Programacion & IT"
+                            name="programacion_it">{{novedad.programacion_it}}</textarea>
+                    </div>
+                    <div class="mb-3 row">
+                        <textarea type="text" class="form-control"
+                            placeholder="Direccion"
+                            name="direccion">{{novedad.direccion}}</textarea>
+                    </div>
+                    <div class="mb-3 row">
+                        <textarea type="text" class="form-control"
+                            placeholder="Cp"
+                            name="cp">{{novedad.cp}}</textarea>
+                    </div>
+                    <div class="mb-3 row">
+                        <textarea type="text" class="form-control"
+                            placeholder="Telefono"
+                            name="telefono">{{novedad.telefono}}</textarea>
+                    </div>
+                    <div class="boton_guardar">
+                        <button type="submit" class="btn btn-primary">Modificar</button>
+                    </div>
+                </form>
+                {{#if error}}
+                <div class="mensaje_error">
+                    <p class="mensaje_error_p">{{message}}</p>
+                </div>
+                {{/if}}
+            </div>
+        </div>
+    </div>
+    <div> &nbsp; </div>
+</div>
