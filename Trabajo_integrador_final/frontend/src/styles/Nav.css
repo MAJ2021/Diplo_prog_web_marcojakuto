@@ -1,0 +1,61 @@
+.menu_empresa {
+
+    margin: 0px;
+    display: flex;
+
+}
+
+.menu_empresa nav {
+
+    width: 100%;
+    padding: 10px;
+    display: inline-flex;
+    justify-content: flex-end;
+
+}
+
+.menu_empresa nav ul {
+
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: inline-flex;
+
+}
+
+.menu_empresa nav ul li {
+
+    flex-grow: 1;
+
+}
+
+.menu_empresa nav ul li a {
+
+    color: rgb(0, 89, 255);
+    text-decoration: none;
+    padding: 4px 20px;
+    margin-right: 10px;
+    display: block;
+    text-align: center;
+    font-weight: 700;
+}
+
+.menu_empresa nav ul li a:hover {
+
+    background-color: rgb(8, 159, 247);
+    border-radius: 10px;
+    transform: scale(1.1);
+    color: rgb(8, 0, 0);
+    font-weight: 600;
+}
+
+@media screen and (min-width: 230px) and (max-width: 790px) {
+   
+    .menu_empresa {
+
+        
+        display: flex;
+        transform: scale(0.9);
+        margin-left: 250px;
+    }
+}
