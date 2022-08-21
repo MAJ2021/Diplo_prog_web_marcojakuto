@@ -1,0 +1,43 @@
+<div class="contenedor_agregar">
+    <div class="contenedor_salir">
+        <p class="saludo_novedades"><a class="salir"
+                href="/admin/novedades"> Salir <i class="fas
+                    fa-sign-out-alt"></i></a></p>
+    </div>
+    <div> &nbsp; </div>
+    <div class="container" id="agregar" >
+        <div class="row">
+            <div class="col-7">
+                <h3 class="titulo_agregar">Agregar una nueva novedad</h3>
+                <form action="/admin/novedades/agregar" method="post" enctype="multipart/form-data">
+                    <div class="mb-3 row">
+                        <input type="text" class="form-control" placeholder="Titulo" name="titulo">
+                    </div>
+                    <div class="mb-3 row">
+                        <textarea type="text" class="form-control"
+                            placeholder="Subtitulo" name="subtitulo"></textarea>
+                    </div>
+                    <div class="mb-3 row">
+                        <textarea type="text" class="form-control"
+                            placeholder="Cuerpo" name="cuerpo"></textarea>
+                    </div>
+                    <div class="mb-3 row">
+                        <label> Imagen: <input type="file" class="form-control" placeholder="Imagen" name="imagen"
+                        id="imagen">
+                        </label>
+                    </div>
+                    <div class="boton_guardar">
+                    <button type="submit" class="btn btn-primary">Guardar</button>
+                    
+                    </div>
+                </form>
+                {{#if error}}
+                <div class="mensaje_error">
+                <p class="mensaje_error_p">{{message}}</p>
+                </div>
+                {{/if}}
+            </div>
+        </div>
+    </div>
+    <div> &nbsp; </div>
+</div>

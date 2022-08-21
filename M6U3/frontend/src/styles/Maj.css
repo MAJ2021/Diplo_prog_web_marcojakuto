@@ -1,0 +1,12 @@
+.foto_pag_inicial_1 {
+
+
+    display: flex;
+    justify-content: center;
+}
+
+.foto_1 {
+
+    display: flex;
+    width: 100%;
+}
