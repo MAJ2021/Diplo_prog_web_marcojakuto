@@ -7,10 +7,9 @@ import '../styles/Contacto.css';
 
 const Contacto = (props) => {
 
- 
     const [loading, setloading] = useState(false);
     const [novedades, setNovedades] = useState([]);
-
+    
     useEffect(() => {
         const cargarNovedades = async () => {
             setloading(true);
@@ -18,21 +17,21 @@ const Contacto = (props) => {
             setNovedades(response.data);
             setloading(false);
         };
-
         cargarNovedades();
     }, []);
+
 
     return (
 
         <section>
-           
+
             {loading ? (
                 <p>Cargando....</p>
             ) : (
-                novedades.map( item => <ContactoItem key={item.id}
-                title_5={item.direccion} 
-                title_6={item.cp}
-                title_7={item.telefono}
+                novedades.map(item => <ContactoItem key={item.id}
+                    title_5={item.direccion}
+                    title_6={item.cp}
+                    title_7={item.telefono}
                 />)
             )}
         </section>
