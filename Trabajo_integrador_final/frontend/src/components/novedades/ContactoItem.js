@@ -71,7 +71,7 @@ const Contacto = (props) => {
                 </div>
                 <div className="formulario_contacto">
                     <h3>FORMULARIO DE CONTACTO</h3>
-                    <form action="" method="" className="formulario" onSubmit={handleSubmit}>
+                    <form action="/contacto" method="post" className="formulario" onSubmit={handleSubmit}>
 
                         <p>
                             <label for="nom">Nombre</label>

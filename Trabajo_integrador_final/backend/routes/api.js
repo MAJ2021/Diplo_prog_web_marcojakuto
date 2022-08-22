@@ -3,7 +3,7 @@ var router = express.Router();
 var novedadesModel = require('./../models/novedadesModel');
 var trabajosrealizadosModel = require('./../models/trabajosrealizadosModel');
 var cloudinary = require('cloudinary').v2;
-
+var nodemailer = require('nodemailer');
 
 // novedades
 router.get('/novedades', async function (req, res, next) {
@@ -52,18 +52,18 @@ router.post('/contacto', async (req, res) => {
     const mail = {
         to: 'marco.jakuto@gmail.com',
         subject: 'contacto web',
-        html: `${req.body.nombre} se conecto a traves de la web y quiere mas informacion a este correo: ${req.body.email} <br> Ademas, hizo el siguiente comentario: ${req.body.mensaje} `
+        html: `${req.body.nombre} se conecto a través de la web y quiere mas información a este correo: ${req.body.email} <br> Ademas, hizo el siguiente comentario: ${req.body.mensaje} `
     }
 
-    const majservicio = nodemailer.createMajservicio({
+    const transport = nodemailer.createTransport({
         host: process.env.SMTP_HOST,
         port: process.env.SMTP_PORT,
         auth: {
             user: process.env.SMTP_USER,
             pass: process.env.SMTP_PASS
         }
-    });
-    await majservicio.sendMail(mail)
+    }); 
+    await transport.sendMail(mail)
 
     res.status(201).json({
         error: false,
